@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_hello_world_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="Hello World!" />
+
+    <TextView
+        android:id="@+id/tv_hello_world_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:ellipsize="marquee"
+        android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/btn_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_hello_world_1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btn_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_hello_world_1"
+        android:layout_toRightOf="@id/btn_button"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Edit Text" />
+
+    <Button
+        android:id="@+id/btn_form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_hello_world_1"
+        android:layout_toRightOf="@id/btn_edit_text"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Form" />
+
+    <Button
+        android:id="@+id/btn_seek_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_button"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Seek Bar" />
+
+    <Button
+        android:id="@+id/btn_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_edit_text"
+        android:layout_toRightOf="@id/btn_seek_bar"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Spinner" />
+
+
+</RelativeLayout>
